@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #eeeeee; */
+}
+
+/* ==========
+1. Home Page
+============== */
+
+.tab-btn {
+  display: inline;
+  cursor: default;
+  width: 50px;
+  height: 50px;
+  color: black;
+  background-color: white;
+  padding: 15px;
+}
+
+#tab-btn,
+.active {
+  border-bottom: 2px solid black;
+}
+
+.link-page{
+  display: grid;
+  grid-template-columns:auto auto;
+
+}
+.link-page a{
+  width: 600px;
+  margin: 10px auto;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border: 1px dotted black;
+  padding: 20px;
+  transition: all linear 0.2s;
+  color: black;
+}
+
+.link-page a:hover{
+  transform: scale(1.02, 1.02);
+}
+.link-page a:active{
+  transform: scale(0.91, 0.91);
+}
+/* 
+.error-page{
+   
+} */
+.card {
+  transition: all 2s linear;
+  transition-delay: 3s;
+  margin: 20px 0;
+}
+
+.card:hover{
+  transform: scale(1.02, 1.02);
+}
